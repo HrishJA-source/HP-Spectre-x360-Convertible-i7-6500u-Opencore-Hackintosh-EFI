@@ -16,7 +16,7 @@ This repo contains the EFI folder and macrecovery.py
 ## Steps
 ### 1. Creating/Formatting the USB
   - Windows
-      1. Open cmd.exe (command prompt) and navigate to the folder that you downloaded from here.
+      1. Open cmd.exe (command prompt) and navigate to the folder that you downloaded from here. Go into the "macrecovery" folder.
       2. Now you will need to run one of these commands to download the vesion you want: 
       
         # Mavericks (10.9):
@@ -62,7 +62,7 @@ This repo contains the EFI folder and macrecovery.py
       5. Now go to the root of the USB drive and create a folder called `com.apple.recovery.boot` and drag your .dmg and .chunklist files in there.
       6. Now grab the EFI folder and place it at the root of the USB drive alongside that folder we just created.
   - Linux
-      1. `cd` into the folder that you downloaded from here.
+      1. `cd` into the folder that you downloaded from here. `cd` again into the "macrecovery" folder.
       2. Look at the "Windows section", particularly the commands to enter into `cmd.exe`. Enter that exact command into the terminal, but replace the `py` at the beginning with `python3` and add a `./` before `macrecovery.py` to execute it.
       3. Now you will get either a `BaseSystem.dmg` & `BaseSystem.chunklist` or a `RecoveryImage.dmg` and `RecoveryImage.chunklist`.
       4. Now if your are experienced, follow steps 5-16, but if you aren't follow steps 17-X.
